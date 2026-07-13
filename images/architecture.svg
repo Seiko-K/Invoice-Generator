@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620">
+  <rect width="1000" height="620" fill="#ffffff"/>
+
+  <text x="500" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#1f2937">
+    Invoice Generator
+  </text>
+
+  <text x="500" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#4b5563">
+    Reusable Excel VBA invoice automation workflow
+  </text>
+
+  <rect x="90" y="125" width="360" height="80" rx="16" fill="#eef2ff" stroke="#6366f1" stroke-width="2"/>
+  <text x="270" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#312e81">
+    Customer Master
+  </text>
+  <text x="270" y="182" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#4338ca">
+    Customer / Address / Currency / Tax
+  </text>
+
+  <rect x="550" y="125" width="360" height="80" rx="16" fill="#ecfeff" stroke="#0891b2" stroke-width="2"/>
+  <text x="730" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#164e63">
+    Invoice Input
+  </text>
+  <text x="730" y="182" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#0e7490">
+    Date / Items / Quantity / Unit Price
+  </text>
+
+  <line x1="270" y1="205" x2="270" y2="235" stroke="#6b7280" stroke-width="3"/>
+  <line x1="730" y1="205" x2="730" y2="235" stroke="#6b7280" stroke-width="3"/>
+  <line x1="270" y1="235" x2="730" y2="235" stroke="#6b7280" stroke-width="3"/>
+  <line x1="500" y1="235" x2="500" y2="260" stroke="#6b7280" stroke-width="3"/>
+  <polygon points="500,270 492,255 508,255" fill="#6b7280"/>
+
+  <rect x="285" y="275" width="430" height="75" rx="16" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="500" y="306" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#14532d">
+    Excel VBA Automation
+  </text>
+  <text x="500" y="332" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#166534">
+    Auto fill / calculation / validation / output
+  </text>
+
+  <line x1="500" y1="350" x2="500" y2="390" stroke="#6b7280" stroke-width="3"/>
+  <line x1="175" y1="390" x2="825" y2="390" stroke="#6b7280" stroke-width="3"/>
+  <line x1="175" y1="390" x2="175" y2="420" stroke="#6b7280" stroke-width="3"/>
+  <line x1="390" y1="390" x2="390" y2="420" stroke="#6b7280" stroke-width="3"/>
+  <line x1="610" y1="390" x2="610" y2="420" stroke="#6b7280" stroke-width="3"/>
+  <line x1="825" y1="390" x2="825" y2="420" stroke="#6b7280" stroke-width="3"/>
+
+  <rect x="50" y="420" width="250" height="70" rx="14" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <text x="175" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#78350f">
+    Invoice Number
+  </text>
+  <text x="175" y="473" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#92400e">
+    Automatic sequential numbering
+  </text>
+
+  <rect x="270" y="420" width="250" height="70" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="395" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#14532d">
+    Customer Auto Fill
+  </text>
+  <text x="395" y="473" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#166534">
+    Master data lookup
+  </text>
+
+  <rect x="490" y="420" width="250" height="70" rx="14" fill="#fdf2f8" stroke="#db2777" stroke-width="2"/>
+  <text x="615" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#831843">
+    Tax &amp; Currency
+  </text>
+  <text x="615" y="473" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#9d174d">
+    Subtotal / tax / total
+  </text>
+
+  <rect x="710" y="420" width="250" height="70" rx="14" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+  <text x="835" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1e3a8a">
+    Print / PDF Ready
+  </text>
+  <text x="835" y="473" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#1d4ed8">
+    Reusable invoice layout
+  </text>
+
+  <line x1="175" y1="490" x2="175" y2="520" stroke="#6b7280" stroke-width="3"/>
+  <line x1="390" y1="490" x2="390" y2="520" stroke="#6b7280" stroke-width="3"/>
+  <line x1="610" y1="490" x2="610" y2="520" stroke="#6b7280" stroke-width="3"/>
+  <line x1="825" y1="490" x2="825" y2="520" stroke="#6b7280" stroke-width="3"/>
+  <line x1="175" y1="520" x2="825" y2="520" stroke="#6b7280" stroke-width="3"/>
+  <line x1="500" y1="520" x2="500" y2="540" stroke="#6b7280" stroke-width="3"/>
+
+  <rect x="300" y="540" width="400" height="55" rx="16" fill="#f3f4f6" stroke="#374151" stroke-width="2"/>
+  <text x="500" y="563" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#111827">
+    Business-ready Invoice Output
+  </text>
+  <text x="500" y="584" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#4b5563">
+    Standardized, accurate and reusable billing workflow
+  </text>
+</svg>
