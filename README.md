@@ -1,14 +1,14 @@
-![Version](https://img.shields.io/badge/version-v0.2-blue)
+![Version](https://img.shields.io/badge/version-v0.3-blue)
 ![Status](https://img.shields.io/badge/status-active-success)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Excel](https://img.shields.io/badge/Excel-VBA-darkgreen)
-![Feature](https://img.shields.io/badge/feature-Invoice_Automation-orange)
+![Feature](https://img.shields.io/badge/feature-Table_First_Design-orange)
 
 # Invoice Generator
 
 Reusable Excel VBA toolkit for invoice generation and business workflow automation.
 
-Built for small businesses, freelancers, and operations teams that need a simple, reusable invoice automation solution using Microsoft Excel.
+Built for small businesses, freelancers, and operations teams that need a simple, maintainable invoice automation solution using Microsoft Excel.
 
 ---
 
@@ -22,33 +22,35 @@ Built for small businesses, freelancers, and operations teams that need a simple
 
 ## Features
 
+✓ Excel Table-based Data Model
+
 ✓ Customer Master Management
 
 ✓ Customer ID Dropdown
 
-✓ Automatic Customer Lookup
+✓ Automatic Customer Lookup (XLOOKUP)
 
 ✓ Customer Information Auto Fill
 
 ✓ Invoice Number Generation
 
-✓ Due Date Calculation
-
 ✓ Payment Terms Support
 
-✓ Tax Calculation
+✓ Automatic Due Date Calculation
 
-✓ Currency Support
+✓ Currency Lookup
 
-✓ Invoice Template
+✓ Tax Rate Lookup
+
+✓ Invoice Item Table
+
+✓ Input Validation (Excel VBA)
 
 ✓ Print-ready Layout
 
 ✓ PDF-ready Design
 
-✓ Excel VBA
-
-✓ Reusable Modules
+✓ Reusable VBA Modules
 
 ✓ Business Workflow Automation
 
@@ -57,21 +59,29 @@ Built for small businesses, freelancers, and operations teams that need a simple
 ## Example Workflow
 
 ```text
-Customer Master
+tblCustomers
         │
         ▼
-Customer Selection
+Invoice Input
         │
         ▼
-Auto Fill
-(Customer / Currency / Tax)
+Customer Lookup
+(Customer / Currency / Tax / Payment Terms)
         │
         ▼
-Invoice Information
-(Date / Due Date / Number)
+tblInvoiceItems
         │
         ▼
-Invoice Calculation
+Subtotal
+        │
+        ▼
+Tax
+        │
+        ▼
+Total
+        │
+        ▼
+tblSettings
         │
         ▼
 Invoice Output
@@ -110,17 +120,12 @@ Settings
 ## Technologies
 
 - Microsoft Excel
-
-- Excel VBA
-
-- Excel Formulas
-
-- Data Validation
-
+- Excel Tables
+- Structured References
 - XLOOKUP
-
+- Excel VBA
+- Data Validation
 - Print Layout
-
 - Business Automation
 
 ---
@@ -128,47 +133,32 @@ Settings
 ## Current Functions
 
 - Customer Master management
-
 - Customer ID dropdown list
-
 - Automatic customer lookup
-
 - Automatic customer information fill
-
+- Automatic currency lookup
+- Automatic tax rate lookup
+- Payment terms lookup
+- Automatic due date calculation
 - Invoice number generation
-
-- Due date calculation
-
-- Payment terms support
-
-- Tax calculation
-
-- Currency management
-
-- Invoice worksheet
-
+- Invoice item table
+- Automatic subtotal calculation
+- Automatic tax calculation
+- Automatic total calculation
+- VBA input validation
 - Print-ready invoice layout
 
 ---
 
 ## Future Roadmap
 
-- Invoice Line Automation
-
 - PDF Export
-
 - Email Sending
-
 - Multi-Currency Support
-
 - Invoice History
-
 - Automatic Invoice Number Sequence
-
 - Dashboard
-
 - API Integration
-
 - Cloud Integration
 
 ---
@@ -176,17 +166,11 @@ Settings
 ## Example Use Cases
 
 - Small Business Invoicing
-
 - Freelancer Invoice Generation
-
 - Internal Billing
-
 - Client Billing
-
 - Service Invoice Templates
-
 - Sales Operations
-
 - Business Workflow Automation
 
 ---
@@ -195,11 +179,22 @@ Settings
 
 Many businesses still create invoices manually in Excel.
 
-This project demonstrates how repetitive billing tasks can be standardized and automated using Excel VBA, XLOOKUP, and reusable worksheet templates.
+This project demonstrates how repetitive billing tasks can be standardized and automated using Excel Tables, XLOOKUP, Structured References, and reusable VBA modules.
 
-Customer information, invoice numbers, payment terms, tax rates, and invoice calculations are designed to reduce manual work while improving consistency and accuracy.
+Customer information, invoice numbers, payment terms, due dates, tax rates, currencies, and invoice calculations are automatically managed through a table-first architecture designed for maintainability and scalability.
 
 Rather than being an accounting system, this project focuses on practical business process automation using Microsoft Excel.
+
+---
+
+## Design Principles
+
+- Table First Design
+- Reusable VBA Modules
+- Structured References
+- Maintainable Workbook Architecture
+- Business-oriented Automation
+- Scalable Excel Solutions
 
 ---
 
