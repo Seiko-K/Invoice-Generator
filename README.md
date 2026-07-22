@@ -1,8 +1,8 @@
-![Version](https://img.shields.io/badge/version-v0.3-blue)
+![Version](https://img.shields.io/badge/version-v0.4-blue)
 ![Status](https://img.shields.io/badge/status-active-success)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Excel](https://img.shields.io/badge/Excel-VBA-darkgreen)
-![Feature](https://img.shields.io/badge/feature-Table_First_Design-orange)
+![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS-blueviolet)
 
 # Invoice Generator
 
@@ -12,7 +12,7 @@ Built for small businesses, freelancers, and operations teams that need a simple
 
 ---
 
-## Architecture
+# Architecture
 
 <p align="center">
   <img src="images/architecture.svg" width="800" alt="Invoice Generator Architecture">
@@ -20,7 +20,7 @@ Built for small businesses, freelancers, and operations teams that need a simple
 
 ---
 
-## Features
+# Features
 
 ✓ Excel Table-based Data Model
 
@@ -46,9 +46,13 @@ Built for small businesses, freelancers, and operations teams that need a simple
 
 ✓ Input Validation (Excel VBA)
 
-✓ Print-ready Layout
+✓ Print-ready Invoice Layout
 
-✓ PDF-ready Design
+✓ Cross-platform PDF Workflow
+
+✓ Native Windows User Experience
+
+✓ Native macOS User Experience
 
 ✓ Reusable VBA Modules
 
@@ -56,7 +60,44 @@ Built for small businesses, freelancers, and operations teams that need a simple
 
 ---
 
-## Example Workflow
+# Cross-platform PDF Workflow
+
+The workbook automatically detects the operating system.
+
+Users never need to choose between Windows and macOS.
+
+## Windows
+
+```text
+Generate
+    │
+    ▼
+Save As Dialog
+    │
+    ▼
+PDF Export
+```
+
+## macOS
+
+```text
+Generate
+    │
+    ▼
+Native Print Dialog
+    │
+    ▼
+PDF
+    │
+    ▼
+Save as PDF
+```
+
+Each platform uses its native user experience instead of forcing identical behavior.
+
+---
+
+# Example Workflow
 
 ```text
 tblCustomers
@@ -81,18 +122,28 @@ Tax
 Total
         │
         ▼
-tblSettings
-        │
-        ▼
 Invoice Output
         │
         ▼
-Print / PDF
+Generate
+        │
+        ▼
+Windows
+ Save As
+        │
+        ▼
+ PDF Export
+
+macOS
+ Native Print Dialog
+        │
+        ▼
+ PDF → Save as PDF
 ```
 
 ---
 
-## Project Structure
+# Project Structure
 
 ```text
 Invoice-Generator
@@ -106,7 +157,7 @@ Invoice-Generator
 
 ---
 
-## Worksheets
+# Worksheets
 
 ```text
 Customer Master
@@ -117,7 +168,7 @@ Settings
 
 ---
 
-## Technologies
+# Technologies
 
 - Microsoft Excel
 - Excel Tables
@@ -125,12 +176,12 @@ Settings
 - XLOOKUP
 - Excel VBA
 - Data Validation
-- Print Layout
+- Cross-platform Design
 - Business Automation
 
 ---
 
-## Current Functions
+# Current Functions
 
 - Customer Master management
 - Customer ID dropdown list
@@ -147,12 +198,16 @@ Settings
 - Automatic total calculation
 - VBA input validation
 - Print-ready invoice layout
+- Cross-platform PDF workflow
+- Automatic operating system detection
+- Windows native PDF export
+- macOS native Print → PDF workflow
 
 ---
 
-## Future Roadmap
+# Future Roadmap
 
-- PDF Export
+- Automatic PDF File Naming
 - Email Sending
 - Multi-Currency Support
 - Invoice History
@@ -163,7 +218,7 @@ Settings
 
 ---
 
-## Example Use Cases
+# Example Use Cases
 
 - Small Business Invoicing
 - Freelancer Invoice Generation
@@ -175,22 +230,32 @@ Settings
 
 ---
 
-## Why This Project?
+# Why This Project?
 
 Many businesses still create invoices manually in Excel.
 
 This project demonstrates how repetitive billing tasks can be standardized and automated using Excel Tables, XLOOKUP, Structured References, and reusable VBA modules.
 
-Customer information, invoice numbers, payment terms, due dates, tax rates, currencies, and invoice calculations are automatically managed through a table-first architecture designed for maintainability and scalability.
+Rather than forcing identical behavior across different operating systems, the workbook automatically detects Windows and macOS and provides the most natural workflow for each platform.
 
-Rather than being an accounting system, this project focuses on practical business process automation using Microsoft Excel.
+The goal is not identical code.
+
+The goal is a consistent user experience.
+
+Windows users export PDFs directly through Excel.
+
+macOS users use the native **Print → PDF** workflow provided by the operating system.
+
+This approach keeps the workbook maintainable while respecting the strengths of each platform.
 
 ---
 
-## Design Principles
+# Design Principles
 
 - Table First Design
 - Reusable VBA Modules
+- Cross-platform Architecture
+- Native User Experience
 - Structured References
 - Maintainable Workbook Architecture
 - Business-oriented Automation
@@ -198,6 +263,6 @@ Rather than being an accounting system, this project focuses on practical busine
 
 ---
 
-## License
+# License
 
 MIT License
